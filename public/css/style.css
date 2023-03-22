@@ -1,0 +1,152 @@
+/*Welcome page*/
+.main .my-5{
+    color: #17d111;
+}
+
+.card {
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.list-unstyled {
+    text-align: center;
+}
+
+.list-unstyled h1,
+.list-unstyled h4 {
+    color: #d12e11;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+
+/*Help Guide Add form*/
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0069d9;
+}
+
+
+/*Header button - float right*/
+.navbar-nav.ml-auto {
+    margin-left: auto;
+}
+
+
+/*Help Guide page*/
+.help {
+width: 100%;
+max-width: auto;
+margin: 0 auto;
+padding: 20px;
+background-color: #f5f1f1;
+}
+  
+.help h1 {
+padding: 2.5rem;
+text-align: center;
+margin-bottom: 5px;
+}
+
+.help h6 {
+font-size: 70%;
+margin-bottom: 20px;
+}
+
+.help h5 {
+font-size: smaller;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 20px;
+}
+
+.help p {
+font-size: smaller;
+color: red;
+font-family: Arial, Helvetica, sans-serif;
+}
+  
+.help ul {
+list-style: none;
+margin: 0;
+padding: 10px;
+}
+  
+.help li {
+position: relative;
+padding: 10px 10px 10px 30px;
+margin-bottom: 30px;
+background-color: #fff;
+border-radius: 5px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+transition: background-color 0.2s ease-out;
+}
+
+.help li:hover {
+background-color: #e0dada;
+}
+
+.help li a {
+display: block;
+font-size: 18px;
+font-weight: bold;
+color: #333;
+text-decoration: none;
+}
+
+.help li .details {
+position: absolute;
+top: 10px;
+left: 10px;
+font-size: 14px;
+color: #999;
+}  
