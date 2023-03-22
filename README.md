@@ -13,8 +13,8 @@ To run this application, you will need to have the following installed on your c
 ## Installation
 To run this application, follow these steps:
 
-1. Clone this repository onto your local machine: ``
-2. Navigate into the project directory: `cd `
+1. Clone this repository onto your local machine: `git clone https://github.com/SameeraGurusinghe/covid19-report.git`
+2. Navigate into the project directory: `cd covid19-report`
 3. Install the project dependencies: `composer install`
 4. Create a new MySQL database for the application
 5. Copy the .env.example file and rename it to .env: `cp .env.example .env`
@@ -39,5 +39,8 @@ There is a page called 'HELP & GUIDE' and any user(without login) can see usful 
 - Then you will be redirect to a form.
 - Add a link and description. Both fields are required. Finally click the "Submit Help Guide" button and your new help guide will save on database and you will be redirect to the main 'HELP & GUIDE' page.
 - It will visible your newly added help guide top of the page with your name.
+
+## Usful Resource
+- API documentation: `https://hpb.health.gov.lk/en/api-documentation`
 
 That's all.
