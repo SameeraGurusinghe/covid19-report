@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::create('help_guides', function (Blueprint $table) {
             $table->id();
-            $table->string('link');
-            $table->string('description');
+            $table->text('link');
+            $table->text('description');
             $table->unsignedBigInteger('user_id');
             $table->timestamps();
         });        
